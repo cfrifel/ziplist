@@ -12,9 +12,10 @@ function zipList(one, two) {
   }
   return result;
 }
-console.log(zipList(one, two));
 
 function zipListTheSimpleWay(one, two) {
   return _.flatten(_.zip(one, two));
 }
+
+console.log(zipList(one, two));
 console.log(zipListTheSimpleWay(one, two));
